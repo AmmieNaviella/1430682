@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Website_1430682.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <link href="Css/Masterpage.css" rel="stylesheet" type="text/css" media="screen" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+    
+        <div id="Wrapper">
+
+
+        <div id ="headernav">
+            <ul>
+                <li><a href="cart.aspx">Cart</a></li>
+                <li><a href="admin.aspx">Admin</a></li>
+                <li><a href="Login.aspx">Login</a></li>
+                <li><a href="Contact.aspx">Contact</a></li>
+                <li><a href="index.aspx">Home</a></li>
+                
+            </ul>
+
+            <div id="socialmedia">
+                <ul>
+                    <li><img alt="fb" src="<%=ResolveClientUrl ("Images/masterpageimage/facebook_icon.PNG")%>" /><a href="https://www.facebook.com/etagames/"></a></li>
+                    <li><img alt="ig" src="<%=ResolveClientUrl ("Images/masterpageimage/instagram_icon.png")%>" /><a href="https://www.instagram.com/etagames/"></a></li>
+                    
+                </ul>
+            </div>
+
+           <div id="logo">
+                <img alt="logo" src="<%=ResolveClientUrl ("Images/masterpageimage/website%20game.png")%>" />
+           </div>
+
+        </div>
+
+            <div id ="Navigation1">
+            <ul>
+                <li><a href="ps4.aspx">PS4</a></li>
+                <li><a href="ps3.aspx">PS3</a></li>
+                <li><a href="xbox.aspx">XBOX</a></li>
+                <li><a href="PC.aspx">PC</a></li>
+                
+            </ul>
+        </div>
+
+            <div id="imageheader">
+                <img alt="logo" src="<%=ResolveClientUrl ("Images/masterpageimage/resident-evil-7-header.jpg")%>" />
+            </div>
+
+         
+
+             
+
+            <div id ="content">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+         <div id="Footer">&copy; Copyright 2016 |ETA Game|
+    <br/>
+    <br/> 
+                     
+       <a href="http://validator.w3.org/check?uri=referer"> Validate HTML</a> |
+       <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a> |
+       <a href="http://achecker.ca/checker/?uri=referer">Check WCAG </a>
+    
+    </div>
+            </div>
+            </div>
+            </form>
+     
+</body>
+</html>

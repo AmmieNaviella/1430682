@@ -1,0 +1,257 @@
+﻿/*Masterpage css*/
+
+#logo {
+    float: left;
+   padding-top: 60px;
+    padding-left:30px;
+    
+}
+#imageheader img {
+    width: 954px;
+    padding-top: 10px;
+    
+}
+
+
+#Wrapper{
+    margin-left: 10%;
+	margin-right: 10%;
+	height:auto;
+    background-color:ghostwhite;
+   
+}
+
+
+
+#headernav ul li{
+    display: none;
+    list-style: none;
+    float: right;
+    display:block;
+    margin-top:15px;
+    text-transform:uppercase;
+    padding: 0px 20px 0px 20px;
+    border-left: 1px solid black;
+    
+}
+
+#headernav{
+    background-color:black;
+    height:50px;
+    color:white;
+}
+
+#headernav a:link{
+    
+    color:white;
+    text-decoration: none;
+
+}
+
+#headernav a:hover{
+    color:aquamarine;
+}
+
+#socialmedia img{
+    height:30px;
+    width:30px;
+}
+
+#socialmedia ul li{
+    float: left;
+    display:block;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+
+#Navigation1 ul li{
+ 
+    list-style: none;
+    float:right;
+    display:block;
+    text-transform:uppercase;
+    padding: 0px 20px 0px 20px;
+    border-left: 1px solid black;
+    margin-top:15px;
+    margin-bottom:50px;
+    font-size:20px;
+}
+
+#Navigation1{
+    padding-right: 360px;
+}
+
+#Navigation1 a:link , #Navigation1 a :visited, #Navigation1 a :active{
+    display: block;
+    color:black;
+    text-decoration: none;
+}
+
+#content{
+
+}
+
+#Footer{
+position: relative;
+bottom:0;
+clear:both;
+padding:initial;
+border-top:3px #FA3804 solid;
+width:100%;
+text-align:center;
+color:black;
+text-decoration:none;
+
+}
+
+/* index page start*/
+
+#label1 p{
+    font-family:'Bernard MT';
+    font-size:25px;
+    border-bottom-color:black;
+    border-bottom-width:5px;
+    border-bottom:solid;
+    
+}
+ 
+#latest img{
+
+    display:inline;
+    width:150px;
+    height:150px;
+    padding-top: 150px;
+    position:center;
+   
+}
+
+#table img{
+     width:200px;
+     height:300px;
+     padding-bottom:10px;
+ }
+
+ #table tr td{ 
+     padding-right:20px;
+ }
+
+ #table{
+     border:none;
+     padding-left:50px;
+ }
+
+
+/* index page end*/
+
+/*contact page start*/
+
+#location {
+    padding-top:80px;
+   
+}
+
+#location h2{
+    margin-left:20px;
+     border-bottom:solid;
+	border-bottom-color:black;
+	margin-right:600px;
+}
+
+#location p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size:15px;
+	font-weight:100;
+	color:black;	
+    margin-left:20px;
+}
+
+#location img{
+    height:50px;
+    width:50px
+}
+
+
+#call {
+    padding-top:80px;
+   
+}
+
+#call h2{
+    margin-left:20px;
+     border-bottom:solid;
+	border-bottom-color:black;
+	margin-right:600px;
+}
+
+#call p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size:15px;
+	font-weight:100;
+	color:black;	
+    margin-left:20px;
+}
+
+#call img{
+    height:50px;
+    width:50px
+}
+
+
+#Feedback {
+    padding-top:80px;
+   
+}
+
+#Feedback h2{
+    margin-left:20px;
+     border-bottom:solid;
+	border-bottom-color:black;
+	margin-right:600px;
+}
+
+#Feedback p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size:15px;
+	font-weight:100;
+	color:black;	
+    margin-left:20px;
+}
+
+#Feedback img{
+    height:50px;
+    width:50px
+}
+
+#table {
+    border-style: solid;
+    border-width: 3px;
+   
+    color: dimgrey;
+    margin-right:350px;
+    margin-left:20px;
+    padding-left:10px;
+    
+}
+
+/* MAP*/
+
+#map {
+    float: right;
+    margin-bottom: 1000px;
+    margin-right: 50px;
+    background-image: url('../images/masterpage image/map.PNG');
+    background-size: cover;
+    height:300px;
+    width:500px;
+}
+
+/*contact page end*/
+
+    
+ /*indax page start*/ 
+
+
+ 
+
+  /*indax page end*/ 
