@@ -7,7 +7,7 @@
     
 }
 #imageheader img {
-    width: 954px;
+    width: 964px;
     padding-top: 10px;
     
 }
@@ -111,10 +111,13 @@ text-decoration:none;
     font-family:'Bernard MT';
     font-size:25px;
     border-bottom-color:black;
-    border-bottom-width:5px;
     border-bottom:solid;
+    margin-right:800px;
+    margin-left:20px;
     
 }
+
+
  
 #latest img{
 
@@ -141,6 +144,24 @@ text-decoration:none;
      padding-left:50px;
  }
 
+ #table p{
+     color:black;
+ }
+ 
+
+ .cartbtn 
+ {
+background: linear-gradient(to bottom, black, lightblue);
+    padding: 4px;
+    margin: 5px;
+    color: white;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 0;
+    clear: both;
+    width: 150px;
+ }
 
 /* index page end*/
 
@@ -249,9 +270,4 @@ text-decoration:none;
 /*contact page end*/
 
     
- /*indax page start*/ 
 
-
- 
-
-  /*indax page end*/ 
