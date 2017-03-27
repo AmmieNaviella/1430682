@@ -5,6 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
+
+
 namespace Website_1430682.Pages.Administrator
 {
     public partial class ManageProductTypes : System.Web.UI.Page

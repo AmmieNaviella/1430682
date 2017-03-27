@@ -20,7 +20,9 @@ namespace Website_1430682
             this.Carts = new HashSet<Cart>();
             this.Products = new HashSet<Product>();
         }
-    
+
+       
+
         public int Id { get; set; }
         public string Name { get; set; }
     

@@ -5,9 +5,9 @@ using System.Web;
 
 namespace Website_1430682.App_Code.Model
 {
-    public class ProductTypeTypeModel
+    public class ProductTypeModel
     {
-        public string InsertProductType(ProductType productType)
+        public string InsertProductTypeModel(ProductType productType)
         {
             try
             {
