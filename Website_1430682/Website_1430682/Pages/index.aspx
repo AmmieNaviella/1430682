@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
      <div id="label1">
-      <p> Lastest Game </p>
+      <p> Lastest Game test </p>
 
       </div>
  <div id="table">
