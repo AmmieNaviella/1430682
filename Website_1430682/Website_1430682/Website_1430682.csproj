@@ -104,6 +104,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\masterpageimage\Assassins-Creed-3.jpg" />
+    <Content Include="map.aspx" />
+    <Content Include="PS4\619dc8fa24eee2e1aff7f712375183b5.jpg" />
+    <Content Include="PS4\7ea437cb2c6a49cb356ba9514a4c7da6.jpg" />
+    <Content Include="PS4\819zbgRMNQL._SL1500_.jpg" />
+    <Content Include="PS4\acu1.jpg" />
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
@@ -158,19 +164,9 @@
     <Content Include="Pages\Contact.aspx" />
     <Content Include="Pages\index.aspx" />
     <Content Include="PS3\159644397_33c2f6.jpg" />
-    <Content Include="PS3\91K+1MNT1YL._SL1500_.jpg" />
     <Content Include="PS3\CA_PS3_PACK-FRONT.jpg" />
     <Content Include="PS3\needforspeedrivalsps31jpg-e96128.jpg" />
-    <Content Include="PS4\1001195166_1_1000x700_fifa-17-game-cd-for-ps4-new-juaben-municipal.jpg" />
-    <Content Include="PS4\619dc8fa24eee2e1aff7f712375183b5.jpg" />
-    <Content Include="PS4\7ea437cb2c6a49cb356ba9514a4c7da6.jpg" />
-    <Content Include="PS4\819zbgRMNQL._SL1500_.jpg" />
-    <Content Include="PS4\acu1.jpg" />
-    <Content Include="PS4\b6537ba665ea7cbde436e17e2dffdd86.jpg" />
-    <Content Include="PS4\item_1648892_997.jpg" />
-    <Content Include="PS4\item_1765901_922.jpg" />
-    <Content Include="PS4\jaquette-need-for-speed-rivals-playstation-4-ps4-cover-avant-g-1385132701.jpg" />
-    <Content Include="PS4\lego1ps4.jpg" />
+    <Content Include="Scripts\map.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -182,6 +178,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="map.aspx.cs">
+      <DependentUpon>map.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="map.aspx.designer.cs">
+      <DependentUpon>map.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -234,7 +237,9 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="mapjs\" />
+  </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>

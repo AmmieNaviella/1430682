@@ -1,4 +1,11 @@
-﻿/*Masterpage css*/
+﻿/*html body*/
+
+body {
+    width: 100%;
+    background-image: url('../Images/masterpageimage/Assassins-Creed-3.jpg');
+}
+
+/*Masterpage css*/
 
 #logo {
     float: left;
@@ -7,7 +14,7 @@
     
 }
 #imageheader img {
-    width: 964px;
+    width: 100%;
     padding-top: 10px;
     
 }
@@ -93,6 +100,8 @@
 }
 
 #Footer{
+background-color:black;
+height:200px;
 position: relative;
 bottom:0;
 clear:both;
@@ -100,9 +109,15 @@ padding:initial;
 border-top:3px #FA3804 solid;
 width:100%;
 text-align:center;
-color:black;
+color:white;
 text-decoration:none;
+margin-top:50px;
 
+}
+
+#Footer h2{
+    font-family:'Bernard MT';
+    color:white;
 }
 
 /* index page start*/
@@ -117,37 +132,98 @@ text-decoration:none;
     
 }
 
-
- 
-#latest img{
-
-    display:inline;
-    width:150px;
-    height:150px;
-    padding-top: 150px;
-    position:center;
-   
+#label2 p{
+    font-family:'Bernard MT';
+    font-size:25px;
+    border-bottom-color:black;
+    border-bottom:solid;
+    margin-right:800px;
+    margin-left:20px;
+    
 }
 
-#table img{
-     width:200px;
-     height:300px;
-     padding-bottom:10px;
- }
 
+
+ 
+/*image hover start*/
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: 10;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  position:inherit;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+ /*image1 end*/
+
+ /*image hover end*/
+
+ /*table 1*/
  #table tr td{ 
-     padding-right:20px;
- }
-
- #table{
-     border:none;
-     padding-left:50px;
- }
-
- #table p{
-     color:black;
+     padding-left:20px;
  }
  
+ #table img{
+     width:200px;
+     height:250px;
+     padding-left:10px;
+ }
+
+
+
+ #table{
+   border-width:100px;
+ }
+
+ /*table 1 end*/
+
+ /*table2*/
+ #table2 tr td{ 
+     padding-left:60px;
+ }
+ 
+ #table2 img{
+     width:200px;
+     height:250px;
+     padding-left:10px;
+ }
+
+
+
+ #table2{
+     border:none;
+ }
+
+ /*table2 end*/
 
  .cartbtn 
  {
@@ -161,6 +237,18 @@ background: linear-gradient(to bottom, black, lightblue);
     border: 0;
     clear: both;
     width: 150px;
+ }
+
+ .ps3 li{
+
+    list-style:none;
+    border-left: 1px solid black;
+
+ }
+
+ .ps3 img{
+     width:200px;
+     height:300px;
  }
 
 /* index page end*/
@@ -257,15 +345,25 @@ background: linear-gradient(to bottom, black, lightblue);
 
 /* MAP*/
 
-#map {
-    float: right;
-    margin-bottom: 1000px;
-    margin-right: 50px;
-    background-image: url('../images/masterpage image/map.PNG');
-    background-size: cover;
+
+
+#map img {
+  
+    float:right;
+    width:400px;
     height:300px;
-    width:500px;
+    padding-right:100px;
+    padding-top:100px;
 }
+
+#googleMap {
+    width:100%;
+    height:auto;
+}
+      
+     
+    
+   
 
 /*contact page end*/
 

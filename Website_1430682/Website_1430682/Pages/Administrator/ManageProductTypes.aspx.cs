@@ -13,7 +13,7 @@ namespace Website_1430682.Pages.Administrator
     public partial class ManageProductTypes : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
+        { 
 
         }
 
@@ -21,10 +21,9 @@ namespace Website_1430682.Pages.Administrator
         {
             ProductTypeModel model = new ProductTypeModel();
             ProductType pt = createProductType();
-
             lblResult.Text = model.InsertProductType(pt);
         }
-
+         
         private ProductType createProductType()
         {
             ProductType p = new ProductType();

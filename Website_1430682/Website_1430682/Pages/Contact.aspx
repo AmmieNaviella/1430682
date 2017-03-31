@@ -1,8 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Website_1430682.Pages.Contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Css/Masterpage.css" rel="stylesheet" type="text/css" media="screen" />
+ 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <div id="map">
+        <img src="../Images/masterpageimage/map.PNG" />
+    </div>
+
      <div id="location">
     <h2> Find us Here <img src="../images/icons/images.png" /></h2>
 
@@ -14,15 +19,7 @@
         <!--contact page -->
         </div>
 
-    <div id="map">
    
-        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-        <div style='overflow:hidden;height:440px;width:700px;'>
-            <div id='gmap_canvas' style='height:340px;width:500px;'></div>
-            <div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="https://enablecookies.info">are cookies enabled? Browser test</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(4.905723244562794,114.91672266322941),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(4.905723244562794,114.91672266322941)});infowindow = new google.maps.InfoWindow({content:'<strong>ETA GAME</strong><br>The Mall Gadong, Brunei Darussalam<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-
-        </div>
-    
 
     <div id="call">
 
@@ -75,9 +72,34 @@
                         <input type="reset" value="Reset" /></td>
                         
                 
-                </tr>
+                <%--</tr>--%>
                 
             </table>
               
             </div>
+
+     
+     <div id="MAPscript">
+       
+         <script src="http://maps.googleapis.com/maps/api/js"></script>
+            <script>
+            function initialize() {
+            var mapProp = {
+                center: new google.maps.LatLng(4.885421, 114.931361),
+                zoom: 20,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+
+      
+                  
+            </div>
+   
+      
+   
+   
+
 </asp:Content>
