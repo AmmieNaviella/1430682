@@ -105,6 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\masterpageimage\Assassins-Creed-3.jpg" />
+    <Content Include="Images\masterpageimage\ETALOGO.png" />
     <Content Include="map.aspx" />
     <Content Include="PS4\619dc8fa24eee2e1aff7f712375183b5.jpg" />
     <Content Include="PS4\7ea437cb2c6a49cb356ba9514a4c7da6.jpg" />

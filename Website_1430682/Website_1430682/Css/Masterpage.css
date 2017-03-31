@@ -7,10 +7,13 @@ body {
 
 /*Masterpage css*/
 
-#logo {
+#logo img {
     float: left;
    padding-top: 60px;
-    padding-left:30px;
+    padding-left:10px;
+    width:200px;
+    height:100px;
+    
     
 }
 #imageheader img {
@@ -24,7 +27,7 @@ body {
     margin-left: 10%;
 	margin-right: 10%;
 	height:auto;
-    background-color:ghostwhite;
+    background-color:white;
    
 }
 
@@ -44,6 +47,7 @@ body {
 
 #headernav{
     background-color:black;
+    border-bottom:3px #FA3804 solid;
     height:50px;
     color:white;
 }

@@ -8,6 +8,7 @@
     
     <link href="Css/Masterpage.css" rel="stylesheet" type="text/css" media="screen" />
     <asp:ContentPlaceHolder ID="head" runat="server">
+       
     </asp:ContentPlaceHolder>
 </head>
 <body>
@@ -36,7 +37,7 @@
             </div>
 
            <div id="logo">
-                <img alt="logo" src="<%=ResolveClientUrl ("Images/masterpageimage/website%20game.png")%>" />
+                <img alt="logo" src="<%=ResolveClientUrl ("Images/masterpageimage/ETALOGO.png")%>" />
            </div>
 
         </div>
@@ -50,14 +51,13 @@
                 
             </ul>
         </div>
-
+          
             <div id="imageheader">
                 <img alt="logo" src="<%=ResolveClientUrl ("Images/masterpageimage/resident-evil-7-header.jpg")%>" />
             </div>
 
-         
+      
 
-             
 
             <div id ="content">
     <div>
