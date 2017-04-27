@@ -470,3 +470,21 @@ background: linear-gradient(to bottom, black, lightblue);
     background-color:black;
     border-radius:10px;
 }
+
+
+
+/* Map css 
+
+#gmap_canvas.img {
+    max-width: none !important;
+    background: none !important;
+}
+
+#gmap_canvas {
+    overflow: hidden;
+    height: 400px;
+    width: 520px;
+
+}
+
+    */

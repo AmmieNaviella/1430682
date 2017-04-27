@@ -1,4 +1,6 @@
-﻿
+﻿/* Map */
+
+
         var map;
 function initialize() {
 
@@ -15,5 +17,10 @@ function initialize() {
         title: "Hello World!"
     });
 }
+
+
+
+
+
 
    

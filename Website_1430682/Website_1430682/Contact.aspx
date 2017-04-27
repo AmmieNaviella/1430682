@@ -5,11 +5,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
      <div id="map">
-        <img src="../Images/masterpageimage/map.PNG" />
+        <img alt="1" src="Images/masterpageimage/map.PNG" />
     </div>
 
      <div id="location">
-    <h2> Find us Here <img src="../images/icons/images.png" /></h2>
+    <h2> Find us Here <img alt="2" src="Images/icons/images.png" /></h2>
 
         <p> The Mall Gadong</p>
             <p>3rd Floor</p>
@@ -23,13 +23,13 @@
 
     <div id="call">
 
-        <h2> Call Us or Message <img src="../images/icons/RcGG5M67i.png" /> </h2>
+        <h2> Call Us or Message <img alt="3" src="Images/icons/RcGG5M67i.png" /> </h2>
         <p>+6738759949</p>
         
     </div>
 
     <div id="Feedback">
-        <h2> Your Message <img src="../images/icons/minicons-82-512.png" /> </h2>
+        <h2> Your Message <img alt="4" src="Images/icons/minicons-82-512.png" /> </h2>
         </div>
 
     <div id="table">  
