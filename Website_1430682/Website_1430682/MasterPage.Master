@@ -20,11 +20,13 @@
 
         <div id ="headernav">
             <ul>
+                <li><a href="Register.aspx" class="Register">Register</a></li>
+                <li><a href="Login.aspx">Login    |</a></li>
                 <li><a href="cart.aspx">Cart</a></li>
-                <li><a href="admin.aspx">Admin</a></li>
-                <li><a href="Login.aspx">Login</a></li>
+                <li><a href="administrator.aspx">Admin</a></li> 
                 <li><a href="Contact.aspx">Contact</a></li>
-                <li><a href="index.aspx">Home</a></li>
+                <li><a href="default.aspx">Home</a></li>
+                
                 
             </ul>
 

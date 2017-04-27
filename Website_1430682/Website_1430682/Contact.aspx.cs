@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Website_1430682.Pages
+namespace Website_1430682
 {
     public partial class Contact : System.Web.UI.Page
     {
@@ -14,6 +14,7 @@ namespace Website_1430682.Pages
         {
 
         }
+
         protected void send_message()
         {
 

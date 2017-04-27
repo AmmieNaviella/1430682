@@ -1,10 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Website_1430682.Pages.index" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Website_1430682._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-     <link href="Css/Masterpage.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="Css/Masterpage.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-   <div style="position:relative;height:0;padding-bottom:56.25%">
+    <div style="position:relative;height:0;padding-bottom:56.25%">
        <object data="https://www.youtube.com/embed/HPQl6hEa1jY?ecver=2" 
            width="640" 
            height="360" frameborder="0" style="position:absolute;width:90%;height:90%;padding-left:60px; padding-top:20px;" allowfullscreen>
@@ -101,6 +100,4 @@
               </tr>
                </table>
       </div>
-         
-   
 </asp:Content>
