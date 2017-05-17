@@ -74,7 +74,8 @@
                     <asp:Button ID="btnsave" runat="server" Text="Save" OnClick="btnsave_Click" />
                     </td>
                 <td>
-                   <input id="Reset1" type="reset" value="reset" />
+                   
+                    <asp:Button ID="btnedit" runat="server" Text="Edit" />
                 </td>
             </tr>
             <tr>

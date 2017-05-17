@@ -488,3 +488,20 @@ background: linear-gradient(to bottom, black, lightblue);
 }
 
     */
+
+/*usermember*/
+.detailsImage {
+    height: 350px;
+    width: 350px;
+    margin-right: 20px;
+}
+
+.detailsDescription {
+    font-style: italic;
+    width: 600px;
+}
+
+.detailsPrice {
+    font-weight: bold;
+    font-size: 24px;
+}

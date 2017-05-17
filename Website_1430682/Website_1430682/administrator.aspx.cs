@@ -36,7 +36,10 @@ namespace Website_1430682
 
         }
 
-
+        protected void btnedit_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("editadmin.aspx");
+        }
         protected void btnsave_Click(object sender, EventArgs e)
         {
             {
@@ -61,16 +64,25 @@ namespace Website_1430682
                     {
                         String query = "INSERT INTO tblProductGame (name_game,game_cat,Price,Quantity,";
                         query += "Description,image)";
-                        query += " VALUES ('" + txttitle.Text + "','" + ddcat.SelectedItem.ToString() + "'";
-                        query += "" + txtprice.Text + "," + txtqty.Text + "'";
-                        query += "" + txtdescription.Text + "','" + filename + "'";
+                        query += " VALUES (@namegame,@gamecat,@price,@quantity)";
+
+
+
+
 
                         pimage.SaveAs(Server.MapPath("/images/products/") + filename);
 
                         SqlCommand com = new SqlCommand(query, db);
-                        com.ExecuteNonQuery();
+
+                        com.Parameters.AddWithValue("@namegame", txttitle.Text);
+                        com.Parameters.AddWithValue("@gamecat", ddcat.SelectedItem.ToString());
+                        com.Parameters.AddWithValue("@price", txtprice.Text);
+                        com.Parameters.AddWithValue("@quantity", txtqty.Text);
+
+                        if (com.ExecuteNonQuery() > 0) { 
                         litmessage.Text = "Product Added";
                         Clear();
+                    }
                     }
                     else
                     {
